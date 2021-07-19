@@ -4389,6 +4389,17 @@ textarea.form-control-lg {
 .card-group > .card {
   margin-bottom: 0.75rem;
 }
+
+header{
+  color: #fff;
+  background-image: url("../assets/1626576371624.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  
+}
+
 @media (min-width: 576px) {
   .card-group {
     display: flex;
@@ -4415,14 +4426,7 @@ textarea.form-control-lg {
     border-bottom-right-radius: 0;
   }
 
-header{
-  color: #fff;
-  background-image: url("../assets/1626576371624.jpg");
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  background-size: cover;
-}
+
   .card-group > .card:not(:first-child) {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
