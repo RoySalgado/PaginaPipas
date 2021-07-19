@@ -4390,15 +4390,17 @@ textarea.form-control-lg {
   margin-bottom: 0.75rem;
 }
 
-header{
+.img-dis{
   color: #fff;
   background-image: url("../assets/1626576371624.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
-  
+  position: relative;
+  text-shadow: black 0.1em 0.1em 0.2em;
 }
+
 
 @media (min-width: 576px) {
   .card-group {
