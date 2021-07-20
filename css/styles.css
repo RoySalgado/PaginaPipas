@@ -4390,6 +4390,7 @@ textarea.form-control-lg {
   margin-bottom: 0.75rem;
 }
 
+
 .img-dis{
   color: #fff;
   background-image: url("../assets/1626576371624.jpg");
@@ -6256,7 +6257,22 @@ textarea.form-control-lg {
     top: 0;
     z-index: 1020;
   }
+  
 }
+
+
+
+@media (max-width: 500px) {
+  .map{
+    height: 200px;
+  }
+}
+@media (max-width: 650px) {
+  .map{
+    height: 250px;
+  }
+}
+
 @media (min-width: 992px) {
   .sticky-lg-top {
     position: sticky;
