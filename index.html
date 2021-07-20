@@ -16,16 +16,16 @@
     <body class="d-flex flex-column h-100">
         <main class="flex-shrink-0">
             <!-- Navigation-->
-            <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <nav id="home" class="navbar navbar-expand-lg navbar-dark bg-primary">
                 <div class="container">
                     <a class="navbar-brand" href="index.html">Pipas de Alex</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
-                            <li class="nav-item"><a class="nav-link" href="about.html">Productos y Servicios</a></li>
-                            <li class="nav-item"><a class="nav-link" href="contact.html">Contacto</a></li>
-                            <li class="nav-item"><a class="nav-link" href="pricing.html">Acerca de</a></li>
+                            <li class="nav-item"><a class="nav-link active" href="#home">Inicio</a></li>
+                            <li class="nav-item"><a class="nav-link active" href="#services">Productos y Servicios</a></li>
+                            <li class="nav-item"><a class="nav-link active" href="#faq">Preguntas Frecuentes</a></li>
+                            <li class="nav-item"><a class="nav-link active" href="#map">Mapa</a></li>
                         </ul>
                     </div>
                 </div>
@@ -47,7 +47,7 @@
                     </div>
                 </div>
             </header>
-            <section class="py-5">
+            <section id="services" class="py-5">
                 <div class="container px-5 my-5">
                     <div class="row gx-5 justify-content-center">
                         <div class="col-lg-8 col-xl-6">
@@ -57,7 +57,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row gx-5">
+                    <div class="row gx-5 justify-content-center">
                         <div class="col-lg-4 mb-5">
                             <div class="card h-100 shadow border-0">
                                 <img class="card-img-top" src="https://dummyimage.com/600x350/ced4da/6c757d" alt="..." />
@@ -71,7 +71,7 @@
                                         <div class="d-flex align-items-center">
                                             
                                             <a class="btn btn-primary btn-lg px-4 me-sm-3" href="tel:+527772031156">Llamar</a>
-                                            <a class="btn btn-primary btn-lg px-4 me-sm-3" href="https://api.whatsapp.com/send/?phone=527772031156&text=Hola%20Pipas%20Alex%20Me%20Puede%20Dar%20Informacion&app_absent=0"><img src="./assets/whatsapp.svg" width="30px" alt=""></a>
+                                            <a class="btn btn-primary btn-lg px-4 me-sm-3" href="https://api.whatsapp.com/send/?phone=527772031156&text=Hola%20Pipas%20Alex%20¿Me%20Puede%20Dar%20Informacion?&app_absent=0"><img src="./assets/whatsapp.svg" width="30px" alt=""></a>
                                         </div>
                                     </div>
                                 </div>
@@ -89,30 +89,13 @@
                                     <div class="d-flex align-items-end justify-content-center">
                                         <div class="d-flex align-items-center">
                                             <a class="btn btn-primary btn-lg px-4 me-sm-3" href="tel:+527772031156">Llamar</a>
-                                            <a class="btn btn-primary btn-lg px-4 me-sm-3" href="https://api.whatsapp.com/send/?phone=527772031156&text=Hola%20Pipas%20Alex%20Me%20Puede%20Dar%20Informacion&app_absent=0"><img src="./assets/whatsapp.svg" width="30px" alt=""></a>
+                                            <a class="btn btn-primary btn-lg px-4 me-sm-3" href="https://api.whatsapp.com/send/?phone=527772031156&text=Hola%20Pipas%20Alex%20¿Me%20Puede%20Dar%20Informacion?&app_absent=0"><img src="./assets/whatsapp.svg" width="30px" alt=""></a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 mb-5">
-                            <div class="card h-100 shadow border-0">
-                                <img class="card-img-top" src="https://dummyimage.com/600x350/6c757d/343a40" alt="..." />
-                                <div class="card-body p-4">
-                                    <div class="badge bg-primary bg-gradient rounded-pill mb-2">News</div>
-                                    <a class="text-decoration-none link-dark stretched-link" href="#!"><h5 class="card-title mb-3">The last blog post title is a little bit longer than the others</h5></a>
-                                    <p class="card-text mb-0">Some more quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                </div>
-                                <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
-                                    <div class="d-flex align-items-end justify-content-center">
-                                        <div class="d-flex align-items-center">
-                                            <a class="btn btn-primary btn-lg px-4 me-sm-3" href="tel:+527772031156">Llamar</a>
-                                            <a class="btn btn-primary btn-lg px-4 me-sm-3" href="https://api.whatsapp.com/send/?phone=527772031156&text=Hola%20Pipas%20Alex%20Me%20Puede%20Dar%20Informacion&app_absent=0"><img src="./assets/whatsapp.svg" width="30px" alt=""></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        
                     </div>
                     <!-- Call to action-->
                     
@@ -142,7 +125,7 @@
             
         </main>
         <!-- Features section-->
-        <section class="py-5" id="features">
+        <section class="py-5" id="faq">
             <div class="container px-5 my-5">
                 <div class="row gx-5">
                     <div class="col-lg-4 mb-5 mb-lg-0"><h2 class="fw-bolder mb-0">Preguntas Frecuentes</h2></div>
@@ -183,7 +166,7 @@
                 </div>
             </div>
         </section>
-        <div class="container-fluid">
+        <div class="container-fluid" id="map">
             <div class="row">
                 <div class="col-12">
                     <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3774.4647945413685!2d-99.21257478544278!3d18.91081016205901!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cddf18b09141c5%3A0x6b774ab69c50dd05!2sPipas%20para%20agua%20en%20Cuernavaca%20%22Pipas%20Alex%22!5e0!3m2!1ses!2smx!4v1626741415955!5m2!1ses!2smx" width="100%" height="400" style="border:0;" allowfullscreen="true" loading="lazy"></iframe>
